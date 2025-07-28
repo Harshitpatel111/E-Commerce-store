@@ -7,11 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
-dist
+
+# Ignore only frontend dist (not backend)
+frontend/dist
+
+# Build outputs
 dist-ssr
 *.local
 
+# Environment variables
 .env
 
 # Editor directories and files
